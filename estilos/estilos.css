@@ -1,7 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 50px 200px;
     background: orange;
 
+}
+body > header{
+    margin: 50px 200px;
+    background: orange;
+    padding: 25px;
+    text-align: center;
 }
 
 h1{
@@ -17,3 +27,4 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.4em;
 }
+
